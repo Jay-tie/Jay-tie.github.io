@@ -1,0 +1,20 @@
+.cal-btns
+{
+background-color: black;
+display: block;
+padding: 0px;
+position: absolute;
+}
+.cal-btns li
+{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    margin: 20px;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+.cal-btns li:hover{
+    background-color: black;
+}
