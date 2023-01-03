@@ -1,1 +1,9 @@
-var a=1;
+var btn1=1;
+var btn1=2;
+var btn1=3;
+var btn1=4;
+var btn1=5;
+var btn1=6;
+var btn1=7;
+var btn1=8;
+var btn1=9;

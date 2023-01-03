@@ -18,3 +18,14 @@ position: absolute;
 .cal-btns li:hover{
     background-color: black;
 }
+.display{
+    background-color: white;
+    display: block;
+    height: 100px;
+    padding: 10px;
+    
+    border: 10px;
+    border-color: black;
+    border-style: solid;
+
+}
