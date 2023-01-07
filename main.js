@@ -16,3 +16,11 @@
             document.getElementById('result').innerHTML = result
             
         }
+        function Del(){
+            document.getElementById('display').value=-num
+            document.getElementById('display').value=-op
+        }
+        function AC(){
+            document.getElementById('display').value = 0;
+            document.getElementById('result').innerHTML = 0;
+        }
