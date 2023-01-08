@@ -1,16 +1,19 @@
 .cal-container{
     height: 600px;
-    width: 200px;
+    width: 220px;
     background-color: white;
-    margin: 20px; 
+    margin: 20px;
+
 }
 .btn{
+
     height : 30px;
-    width: 46px;
+    width: 52px;
     background-color: white;
     box-sizing: border-box;
     margin: 2px 0px;
     cursor: pointer;
+    
 }
 .btn:hover{
     background-color: black;
@@ -24,5 +27,6 @@
     border-color: black;
     border-style: solid;
     width: 200px;
+    text-align: center;
 
 }
