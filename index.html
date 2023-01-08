@@ -13,15 +13,12 @@
     <body>
     <div class="cal-container">
         <div class="display">
-        <div class="display">
             <input type="text"id="display"><div id="result"></div>
         </div>
         <div class="btn-line.l1">
         <div class="btn-line.l1">
         <input type="button" value="AC" class="btn"onclick="AC()"></input>
         <input type="button" value="DEL" class="btn"onclick="Del()"></input>
-        <input type="button" value="(" class="btn"onclick="AddOp('(')"></input>
-        <input type="button" value=")" class="btn"onclick="AddOp(')')"></input>
         <input type="button" value="(" class="btn"onclick="AddOp('(')"></input>
         <input type="button" value=")" class="btn"onclick="AddOp(')')"></input>
         </div>
@@ -48,7 +45,7 @@
         </div>
         <div class="btn-line.l5">
         <div class="btn-line.l5">
-        <input type="button" value="," class="btn"onclick="AddOp()"></input>
+        <input type="button" value="," class="btn"onclick="AddOp(,)"></input>
         <input type="button" value="0" class="btn"onclick="AddNum(0)"></input>
         <input type="button" value="=" class="btn"onclick="Cal()"></input>
         <input type="button" value="/" class="btn"onclick="AddOp('/')"></input>
