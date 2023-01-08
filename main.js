@@ -1,7 +1,7 @@
              function AddNum(num){
             document.getElementById('display').value+=num
         }
-         // đặt tên function là AddNum 
+        // đặt tên function là AddNum 
         //  (num) là yếu tố được gọi ra khi function được thực hiện . 
         // vậy khi
         
@@ -16,11 +16,19 @@
             document.getElementById('result').innerHTML = result
             
         }
-        function Del(){
-            document.getElementById('display').value=-num
-            document.getElementById('display').value=-op
+
+        function Del() {
+        // var display = document.getElementById('display');
+            display.value = display.value.substring(0, display.value.length - 1);
         }
+        // display là biến đã gọi trước đó. 
+        // ".value" để set về đặc tính giá trị
+        // substring dùng để xóa bớt 1 số kí tự trong 1 chuỗi 
+        // (0,..) là vị trí bắt đầu của chuỗi mới
+        // (..., display.value.lenght -1 ) là vị trí kết thúc của chuỗi mới trong trường hợp trên là độ dài của chuỗi cũ -1
+
         function AC(){
-            document.getElementById('display').value = 0;
-            document.getElementById('result').innerHTML = 0;
+            document.getElementById('display').value = '';
+            document.getElementById('result').innerHTML = '';
         }
+        // set 2 biến về rỗng
