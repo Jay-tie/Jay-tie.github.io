@@ -4,9 +4,6 @@
     background-color: white;
     margin: 20px; 
 }
-.btn-line .l1 .btn{
-    width: 46*2px;
-}
 .btn{
     height : 30px;
     width: 46px;
@@ -14,8 +11,6 @@
     box-sizing: border-box;
     margin: 2px 0px;
     cursor: pointer;
-    
-   
 }
 .btn:hover{
     background-color: black;
@@ -24,12 +19,10 @@
 
 .display{
     background-color: white;
-
     height: 100px;
-    
-    
     border: 10px;
     border-color: black;
     border-style: solid;
+    width: 200px;
 
 }
