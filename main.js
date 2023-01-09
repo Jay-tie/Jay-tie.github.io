@@ -1,5 +1,5 @@
-             function AddNum(num){
-            document.getElementById('display').value+=num
+         function AddNum(num){
+         document.getElementById('display').value+=num
         }
         // đặt tên function là AddNum 
         //  (num) là yếu tố được gọi ra khi function được thực hiện . 
@@ -7,6 +7,15 @@
         
         function AddOp(op){
             document.getElementById('display').value+=op
+            var display = document.getElementById('display').value;
+            // var LastChar = display.value[display.value.length - 1, display.value.length - 1];
+        var LastChar=display.value.substring(display.value.length - 1, display.value.length - 1);
+            if (LastChar==='+'||LastChar==='-'||LastChar==='*'||LastChar==='/'){
+                return;
+            }
+           else {display.value+=op;
+
+        }
         }
         // += là 1 operator thực hiện phép cộng cho cả dạng data number và string
         
@@ -32,3 +41,5 @@
             document.getElementById('result').innerHTML = '';
         }
         // set 2 biến về rỗng
+            // var display = document.getElementById('display').value;
+            
